@@ -1,0 +1,41 @@
+
+Installing:
+ gcc                       x86_64     4.4.7-4.el6            centos65-mvway      10 M
+ gcc-c++                   x86_64     4.4.7-4.el6            centos65-mvway     4.7 M
+ openssl-devel             x86_64     1.0.1e-15.el6          centos65-mvway     1.2 M
+ perl                      x86_64     4:5.10.1-136.el6       centos65-mvway      10 M
+ readline-devel            x86_64     6.0-4.el6              centos65-mvway     134 k
+ sqlite-devel              x86_64     3.6.20-1.el6           centos65-mvway      81 k
+ zlib-devel                x86_64     1.2.3-29.el6           centos65-mvway      44 k
+Installing for dependencies:
+ cloog-ppl                 x86_64     0.15.7-1.2.el6         centos65-mvway      93 k
+ cpp                       x86_64     4.4.7-4.el6            centos65-mvway     3.7 M
+ glibc-devel               x86_64     2.12-1.132.el6         centos65-mvway     978 k
+ glibc-headers             x86_64     2.12-1.132.el6         centos65-mvway     608 k
+ kernel-headers            x86_64     2.6.32-431.el6         centos65-mvway     2.8 M
+ keyutils-libs-devel       x86_64     1.4-4.el6              centos65-mvway      28 k
+ krb5-devel                x86_64     1.10.3-10.el6_4.6      centos65-mvway     495 k
+ libcom_err-devel          x86_64     1.41.12-18.el6         centos65-mvway      32 k
+ libgomp                   x86_64     4.4.7-4.el6            centos65-mvway     118 k
+ libselinux-devel          x86_64     2.0.94-5.3.el6_4.1     centos65-mvway     136 k
+ libsepol-devel            x86_64     2.0.41-4.el6           centos65-mvway      64 k
+ libstdc++-devel           x86_64     4.4.7-4.el6            centos65-mvway     1.6 M
+ mpfr                      x86_64     2.4.1-6.el6            centos65-mvway     157 k
+ ncurses-devel             x86_64     5.7-3.20090208.el6     centos65-mvway     642 k
+ perl-Module-Pluggable     x86_64     1:3.90-136.el6         centos65-mvway      40 k
+ perl-Pod-Escapes          x86_64     1:1.04-136.el6         centos65-mvway      32 k
+ perl-Pod-Simple           x86_64     1:3.13-136.el6         centos65-mvway     212 k
+ perl-libs                 x86_64     4:5.10.1-136.el6       centos65-mvway     578 k
+ perl-version              x86_64     3:0.77-136.el6         centos65-mvway      51 k
+ ppl                       x86_64     0.10.2-11.el6          centos65-mvway     1.3 M
+
+
+gcc gcc-c++ kernel-devel-`uname -r`                \
+    zlib-devel openssl-devel readline-devel sqlite-devel    \
+    libgomp libselinux-devel libsepol-devel
+    libstdc++-devel glibc-devel glibc-headers libcom_err-devel
+    kernel-headers keyutils-libs-devel krb5-devel ncurses-devel
+    cloog-ppl cpp mpfr ppl perl            \
+
+    make pkgconfig
+
